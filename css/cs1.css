@@ -1,0 +1,63 @@
+html,body
+{
+    height: 100%;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #009999;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #BE81F7 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.dropdown {
+    background-color: #009999;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+    background: rgba(0, 0, 0, 0.45);
+}
+.center {
+    text-align: center;
+ }
+.browse .textContainer { 
+    height: 430px; 
+    line-height: 400px;
+}
+
+.textContainer h2 {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#success_message{ display: none;}
+
+.sidebar-content{
+        
+        
+        background: #b4bac0;
+    }
+.carousel-inner {
+    overflow: hidden;
+  
+}
